@@ -1,0 +1,17 @@
+#include <iostream>
+
+int main() {
+    int i, jml;
+    float data, tot = 0, var, avg, sum = 0;
+    
+        std::cout <<"masukkan jumlah data: ";
+        std::cin >> jml;
+    for(i=1;i<=jml;i++){
+        std::cout <<"masukkan data " << i <<": ";
+        std::cin >> data;
+        tot = tot + data;
+        }
+        avg = tot/jml;
+        std::cout <<"rata-rata: " << avg << std::endl;
+    return 0;
+}
